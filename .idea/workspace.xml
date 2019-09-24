@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7d66f27d-60b2-46cb-8890-8d796c0a4256" name="Default Changelist" comment="">
+      <change afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/PythonSpecificTerms/closures.py" afterDir="false" />
+      <change afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/PythonSpecificTerms/impl_nonlocal.py" afterDir="false" />
+      <change afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/__init__.py" afterDir="false" />
+      <change afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/music/__init__.py" afterDir="false" />
+      <change afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/music/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/website/__init__.py" afterDir="false" />
+      <change afterPath="$USER_HOME$/Documents/MyPythonExporations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatastructureImplementation/Tree/validBstChecker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCodeSolutions/LeetCode/Hard/first-missing-positive.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite/website/.idea/misc.xml" beforeDir="false" afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite/website/.idea/modules.xml" beforeDir="false" afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite/website/.idea/website.iml" beforeDir="false" afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/.idea/website.iml" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite/website/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite/website/db.sqlite3" beforeDir="false" afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/db.sqlite3" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite/website/manage.py" beforeDir="false" afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/manage.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite/website/music/__init__.py" beforeDir="false" afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/DosAndDonts/__init__.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite/website/music/admin.py" beforeDir="false" afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/music/admin.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite/website/music/apps.py" beforeDir="false" afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/music/apps.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite/website/music/migrations/__init__.py" beforeDir="false" afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/DosAndDonts/dd1.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite/website/music/models.py" beforeDir="false" afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/music/models.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite/website/music/tests.py" beforeDir="false" afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/music/tests.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite/website/music/urls.py" beforeDir="false" afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/music/urls.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite/website/music/views.py" beforeDir="false" afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/music/views.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite/website/website/.idea/misc.xml" beforeDir="false" afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/website/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite/website/website/.idea/modules.xml" beforeDir="false" afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/website/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite/website/website/.idea/website.iml" beforeDir="false" afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/website/.idea/website.iml" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite/website/website/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/website/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite/website/website/__init__.py" beforeDir="false" afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/DosAndDonts/dd2.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite/website/website/settings.py" beforeDir="false" afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/website/settings.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite/website/website/urls.py" beforeDir="false" afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/website/urls.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite/website/website/wsgi.py" beforeDir="false" afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/website/wsgi.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/MyPythonExporations/Python/oop/BankAccount.py" beforeDir="false" afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/oop/BankAccount.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/MyPythonExporations/Python/oop/p2_abstract.py" beforeDir="false" afterPath="$USER_HOME$/Documents/MyPythonExporations/Python/oop/p2_abstract.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DatastructureImplementation/Tree/validBstChecker.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../LeetCodeSolutions/LeetCode/Hard/first-missing-positive.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../LeetCodeSolutions" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/Documents/MyPythonExporations/Python/DosAndDonts/__init__.py" />
+        <option value="$USER_HOME$/Documents/MyPythonExporations/Python/DosAndDonts/dd2.py" />
+        <option value="$USER_HOME$/Documents/MyPythonExporations/__init__.py" />
+        <option value="$USER_HOME$/Documents/MyPythonExporations/Python/__init__.py" />
+        <option value="$USER_HOME$/Documents/MyPythonExporations/Python/DosAndDonts/dd1.py" />
+        <option value="$USER_HOME$/Documents/MyPythonExporations/Python/PythonSpecificTerms/closures.py" />
+        <option value="$USER_HOME$/Documents/MyPythonExporations/Python/oop/p2_abstract.py" />
+        <option value="$USER_HOME$/Documents/MyPythonExporations/Python/oop/BankAccount.py" />
+        <option value="$USER_HOME$/Documents/MyPythonExporations/Python/PythonSpecificTerms/impl_nonlocal.py" />
+        <option value="$PROJECT_DIR$/DatastructureImplementation/Tree/validBstChecker.py" />
+        <option value="$PROJECT_DIR$/../LeetCodeSolutions/LeetCode/Hard/first-missing-positive.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="793" />
+    <option name="width" value="814" />
+    <option name="height" value="826" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DataStructuresInPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructuresInPython" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructuresInPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructuresInPython" type="462c0819:PsiDirectoryNode" />
+              <item name="DatastructureImplementation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructuresInPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructuresInPython" type="462c0819:PsiDirectoryNode" />
+              <item name="DatastructureImplementation" type="462c0819:PsiDirectoryNode" />
+              <item name="Heaps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructuresInPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCodeSolutions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructuresInPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCodeSolutions" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/SON/son5/src" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.first-missing-positive">
+    <configuration name="closures" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyPythonExporations" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documents/MyPythonExporations/Python/PythonSpecificTerms" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Documents/MyPythonExporations/Python/PythonSpecificTerms/closures.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="first-missing-positive" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCodeSolutions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../LeetCodeSolutions/LeetCode/Hard" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../LeetCodeSolutions/LeetCode/Hard/first-missing-positive.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="impl_nonlocal" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyPythonExporations" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documents/MyPythonExporations/Python/PythonSpecificTerms" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Documents/MyPythonExporations/Python/PythonSpecificTerms/impl_nonlocal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.first-missing-positive" />
+        <item itemvalue="Python.impl_nonlocal" />
+        <item itemvalue="Python.closures" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d66f27d-60b2-46cb-8890-8d796c0a4256" name="Default Changelist" comment="" />
+      <created>1568870390515</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568870390515</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="835" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Documents/MyPythonExporations/Python/DosAndDonts/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/MyPythonExporations/Python/DosAndDonts/dd2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/MyPythonExporations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/MyPythonExporations/Python/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/MyPythonExporations/Python/DosAndDonts/dd1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DatastructureImplementation/Tree/AVL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/MyPythonExporations/Python/datastructures/avl.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/music/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/music/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#2#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/music/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/music/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/music/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/music/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/MyPythonExporations/Python/mysite_django/website/website/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#224#233#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/MyPythonExporations/Python/oop/p2_abstract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/MyPythonExporations/Python/oop/p3_oop_con_udemy.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/MyPythonExporations/Python/oop/BankAccount.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/MyPythonExporations/Python/PythonSpecificTerms/closures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DatastructureImplementation/Heaps/Heap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-362" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/MyPythonExporations/Python/PythonSpecificTerms/impl_nonlocal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DatastructureImplementation/Tree/validBstChecker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCodeSolutions/LeetCode/Hard/first-missing-positive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
