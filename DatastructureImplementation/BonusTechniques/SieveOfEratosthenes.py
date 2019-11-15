@@ -13,7 +13,7 @@ def SOE(n):
                 j += 1
     for i, p in enumerate(prime):
         if p:
-            print "{}".format(i),
+            print("{}".format(i), end=",")
 
 def SOE2(n):
     res = n-1
@@ -28,7 +28,7 @@ def SOE2(n):
                 res = res-1
                 prime[i * j] = False
                 j += 1
-    print res
+    print(res)
 
 SOE(13)
 print("\n")

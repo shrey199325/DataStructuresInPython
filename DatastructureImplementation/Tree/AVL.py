@@ -1,3 +1,11 @@
+"""
+AVL Tree Implementation:
+    The problem with BSTree was if we get a sorted list then the
+    structure created would be a linked list and not a BT. To
+    overcome this, AVL Trees perform balancing (rotations) at each
+    step, so that the Binary Tree structure is maintained.
+"""
+
 class Node:
     def __init__(self, data):
         self.data = data
@@ -9,6 +17,10 @@ class Node:
 class AVL:
     def __init__(self):
         self.root = None
+
+    def remove(self, data):
+        if self.root:
+            self.root = self.removeNode(data, self.root)
 
     def insert(self, data):
         self.root = self.insertNode(data, self.root)
@@ -26,6 +38,9 @@ class AVL:
         return self.settleViolation(data, node)
 
     def settleViolation(self, data, node):
+        """
+        As per the balance, rotate the tree left or right.
+        """
         balance = self.calcBalance(node)
         # Case1: left left heavy situation
         if balance > 1 and data < node.left.data:
@@ -51,7 +66,8 @@ class AVL:
 
     def calcBalance(self, node):
         """
-        >1 then left heavy -> right rotation
+        If the value is >1 then the tree is left heavy -> right rotation
+        If the value is <1 then the tree is right heavy -> left rotation
         """
         if not node:
             return 0
@@ -88,6 +104,9 @@ class AVL:
         print("{}".format(node.data))
         if node.right:
             self.traverseInOrder(node.right)
+
+    def removeNode(self, data, node):
+        pass
 
 
 avl = AVL()
