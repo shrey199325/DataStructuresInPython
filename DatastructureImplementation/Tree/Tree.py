@@ -20,4 +20,4 @@ for i in range(10,20,2):
     q = Node(i+1)
     n.add_child(p)
     n.add_child(q)
-print n
+print(n)
