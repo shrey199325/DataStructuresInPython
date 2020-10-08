@@ -41,4 +41,4 @@ insertNode(r,TreeNode(85))
 # Print inoder traversal of the BST
 ll =[]
 inOrderTraversal(r, ll)
-print ll
+print(ll)
