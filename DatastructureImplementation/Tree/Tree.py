@@ -15,7 +15,7 @@ class Node(object):
         return "Node: {}, children: {}".format(self.data, self.children)
 
 n = Node(5)
-for i in range(10,20,2):
+for i in range(10, 20, 2):
     p = Node(i)
     q = Node(i+1)
     n.add_child(p)
